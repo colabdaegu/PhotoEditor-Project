@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="530dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/emptyView0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="  사진편집기"
+            android:textColor="#ffffff"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/emptyView0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="106dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/circle5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="156dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="14dp"
+            android:foregroundGravity="center"
+            android:padding="20dp"
+            android:text="이어붙이기"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:backgroundTint="#CD7777"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="156dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="272dp"
+            android:backgroundTint="#D8CC5F"
+            android:foregroundGravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:text="스티커넣기"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="156dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="236dp"
+            android:layout_marginTop="272dp"
+            android:foregroundGravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:text="모자이크효과"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:backgroundTint="#68D16D" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
